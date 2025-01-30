@@ -7,8 +7,6 @@ CASE para dividir los programas con Alto desempeño o Bajo desempeño de acuerdo
 ¿Por qué? Crear una estrategia para priorizar futuras producciones.
 */
 
--- TABLA
-
 SELECT
   idioma,
   tipo_de_contenido,

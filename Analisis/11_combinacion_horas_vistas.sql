@@ -5,8 +5,6 @@
 ¿Por qué? Conocer qué combinación de variables es más elegida por los usuarios de Netflix en 2023.
 */
 
--- TABLA
-
 SELECT 
 disponibilidad_mundial,
 tipo_de_contenido,
