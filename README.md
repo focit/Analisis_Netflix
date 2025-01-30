@@ -66,7 +66,7 @@ Aquí tienes el desglose de las horas vistas por tipo de contenido en 2023:
 
 - A comparación de las **Películas** que tuvieron un total de 50,637,800,000 horas vistas, representando el 31.97%.
 
-![Horas por tipo de contenido](Graficos\tipo_de_contenido.png)
+![Horas por tipo de contenido](Graficos/tipo_de_contenido.png)
 
 *Gráfico de pastel que visualiza el porcentaje de horas totales por tipo de contenido; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
