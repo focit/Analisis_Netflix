@@ -88,7 +88,7 @@ Aquí tienes el desglose de la distribución de horas por idioma en Netflix en 2
 
 - El **Inglés** fue el idioma más consumido en Netflix en 2023 con un 78.56%, esto significa que más de 3/4 partes del contenido visto fue en esta lengua. En segundo lugar está el idioma **Coreano** con un 9.71% y en tercer lugar la categoría de **No inglés** con 6.59%. Los idiomas menos vistos fueron el **Indú** y el **Ruso**.
 
-![Horas por idioma](Graficos\horas_idioma.png)
+![Horas por idioma](Graficos/horas_idioma.png)
 
 *Gráfico de barras que visualiza la distribución de las horas vistas por idioma en Netflix en 2023; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -108,7 +108,7 @@ Aquí tienes el desglose del promedio de horas vistas por idioma en Netflix en 2
 
 - No existe una distribución igual en el promedio y el total de horas. La diferencia principal es que el total de horas el **Inglés** fue el primer lugar, pero el Coreano tiene un mayor promedio de horas vistas durante 2023. Lo que indica que el contenido en **Coreano** tiene una mayor tasa de consumo por usuario o por título.
 
-![Promedio horas por idioma](Graficos\promedio_idioma.png)
+![Promedio horas por idioma](Graficos/promedio_idioma.png)
 
 *Gráficos de barras que visualiza el promedio de horas vistas por idioma en Netflix en 2023; los gráficos se generaron con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -129,7 +129,7 @@ Aquí tienes un desglose de la combinación entre tipo de contenido e idioma que
 
 - Los consumidores en 2023 prefirieron las **Series en Inglés** con un total de 88,140,800,000 horas, seguidas por **Películas en Inglés** con 36,300,900,000 horas, en tercer lugar se encuentran las *Series en idioma Coreano* con 7,792,600,000 horas. La combinación más preferida por los usuarios de Netflix en 2023 fueron las **Series en Inglés**.
 
-![Horas por Tipo de contenido e idioma](Graficos\idioma_tipocontenido.png)
+![Horas por Tipo de contenido e idioma](Graficos/idioma_tipocontenido.png)
 
 *Gráficos de barras que visualiza el total de horas vistas por tipo de contenido e idioma en Netflix en 2023; los gráficos se generaron con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -195,7 +195,7 @@ Aquí tienes el desglose de los meses con títulos más populares en 2023:
 
 - En el mes de **Junio**, **Octubre** y **Diciembre** de lanzaron los títulos más consumidos en 2023. Mientras que en **Abril**, **Julio** y **Agosto** los de menor popularidad. La relación entre los meses y la popularidad se debe a fechas especiales en cada mes **Junio (vacaciones de verano)**, **Octubre (Halloween)** y **Diciembre (Navidad)**, ya que esas son fechas elegidas para estrenar las producciones más esperadas o por los títulos que tienen que ver con alguna fecha especial.
 
-![Horas de visualización por mes de lanzamiento](Graficos\horas_mes.png)
+![Horas de visualización por mes de lanzamiento](Graficos/horas_mes.png)
 
 *Gráfico lineal que representa el total de horas vistas por mes de lanzamiento; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -226,7 +226,7 @@ Aquí tienes el desglose de las horas vistas por temporada del año en 2023:
 
 - La temporada con lanzamiento más exitosos en 2023 fueron en **Invierno** y **Verano**, guardando relación con las conclusiones del punto anterior, puesto que, en esa temporada tenemos las vacaciones de **Verano** y la **Navidad**.
 
-![Horas vistas por temporada del año](Graficos\horas_temporada.png)
+![Horas vistas por temporada del año](Graficos/horas_temporada.png)
 
 *Gráfico de barras que representa las horas vistas por temporada del año 2023; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -262,7 +262,7 @@ Aquí tienes el desglose de la correlación entre el número de lanzamientos y h
 
 - El número de lanzamientos ha sido constante y sin diferencias marcadas durante todo el año con un pequeño incremento en los últimos cuatro meses. Sin embargo, como vimos anteriormente, en el número de horas vitas hay un mayor incremento en los meses con fechas especiales (Junio, Octubre y Diciembre).
 
-![Relación mes de lanzamiento y horas vistas](Graficos\lanzamientosyvistas_mes.png)
+![Relación mes de lanzamiento y horas vistas](Graficos/lanzamientosyvistas_mes.png)
 
 *Gráfico lineal que representa las horas vistas y gráfico de barras con el número de lanzamientos en 2023; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -292,7 +292,7 @@ Aquí tienes el desglose de la correlación entre número de lanzamientos y hora
 
 - Hay una tendencia positiva entre el **número de lanzamientos** y las **horas vistas** con los días de la semana. A partir del **domingo** esta tendencia fue incrementando hasta llegar a su punto más alto en el día **viernes**. Demostrado que este día fue elegido para estrenar más títulos y que estos títulos han sido los más exitosos de 2023.
 
-![Relación lanzamientos y horas vistas por día de la semana](Graficos\lazamientosyvistas_dia.png)
+![Relación lanzamientos y horas vistas por día de la semana](Graficos/lazamientosyvistas_dia.png)
 
 *Doble gráfico, lineal y de barras, que representa la relación entre los lanzamientos y las horas vistas en 2023; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -314,7 +314,7 @@ Aquí tienes el desglose del promedio de horas vistas por disponibilidad mundial
 
 - Los títulos que están **disponibles mundialmente** son 7,650 y tiene un promedio de 11,145,490.20 horas, mientras que los títulos que **no tiene disponibilidad mundial** son 17,162 y su promedio de horas es de 4,261,676.96. Esto significa que la disponibilidad mundial sí influye en la cantidad de horas vistas, puesto que el promedio de horas vistas de los títulos disponibles mundialmente es casi tres veces mayor a aquello que no lo están. 
 
-![Promedio de horas vistas por disponibilidad mundial](Graficos\vistas_disponibilidad.png)
+![Promedio de horas vistas por disponibilidad mundial](Graficos/vistas_disponibilidad.png)
 
 *Grafico de barras que muestra la diferencia en el promedio de horas vistas por disponibilidad mundial en 2023; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -367,7 +367,7 @@ Aquí tienes el desglose número de lanzamientos y el promedio de horas vistas p
 
 - Hay dos idiomas que tienen una baja representación pero un promedio de vistas más alto: son **el Coreano y el Ruso**. El **Coreano** es el idioma con mayor promedio de horas vistas, pero el **Ruso**, a pesar de no tener más de 50 títulos tiene un mayor promedio de horas vistas que el idioma **Indú**, el cuál tiene una cantidad diez veces mayor de títulos.
 
-![Relación lanzamientos y promedio de horas](Graficos\pocashoras_mayorpromedio.png)
+![Relación lanzamientos y promedio de horas](Graficos/pocashoras_mayorpromedio.png)
 
 *Doble grafico que representa el número de lanzamientos (gráfico de barras) y promedio de horas vistas (gráfico lineal) en 2023; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -388,7 +388,7 @@ Aquí tienes el desglose de la correlación entre número de lanzamientos y hora
 
 - EL porcentaje de **programas con bajo desempeño** que **se encuentran disponibles mundialmente** es del 18.26%, mientras que los **títulos con bajo desempeño** que **no están disponibles mundialmente** son el 81.74%. Lo que significa que es factible invertir en disponibilidad global para mejorar el número de horas vistas hacia la programación de Netflix en 2023.
 
-![Distribución del contenido de bajo desempeño por su disponibilidad mundial](Graficos\pocas_horas.png)
+![Distribución del contenido de bajo desempeño por su disponibilidad mundial](Graficos/pocas_horas.png)
 
 *Gráfico de pastel que representa la distribución del contenido con bajo desempeño de acuerdo a su distribución mundial; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
